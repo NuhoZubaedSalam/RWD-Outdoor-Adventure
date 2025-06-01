@@ -30,7 +30,7 @@
 
   /* ==== HEADER SECTION ==== */
   header {
-    min-height: 80vh;
+    min-height: 60vh;
   }
 
   .navbar {
@@ -52,7 +52,7 @@
   nav > ul > li {
     display: inline-block;
     font-weight: 400;
-    margin: 0 5px;
+    margin: 0 7px;
   }
 
   /* ==== BANNER SECTION ==== */
