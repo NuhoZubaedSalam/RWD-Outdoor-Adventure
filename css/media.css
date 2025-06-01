@@ -43,9 +43,9 @@
   }
 
   nav > ul {
-    padding-top: 10px;
-    /* display: flex;
-        justify-content: center; */
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
     text-align: center;
   }
 
@@ -57,7 +57,7 @@
 
   /* ==== BANNER SECTION ==== */
   .banner {
-    padding: 25px 15px;
+    padding: 50px 15px;
   }
 }
 
