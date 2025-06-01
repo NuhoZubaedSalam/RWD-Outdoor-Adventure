@@ -1,4 +1,4 @@
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat,wght@1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat,wght@1,100..900&display=swap");
 
 /* Global styles */
 body {
@@ -265,7 +265,7 @@ nav > ul > li > a {
 
 .tours > a:hover {
   color: black;
-} 
+}
 
 .imgA {
   height: 500px;
@@ -286,7 +286,7 @@ footer {
   padding: 50px;
   background-color: black;
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 
 .fab {
