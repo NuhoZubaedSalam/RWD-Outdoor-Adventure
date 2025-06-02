@@ -33,7 +33,7 @@
 
   /* ==== HEADER SECTION ==== */
   header {
-    min-height: 70vh;
+    min-height: 60vh;
   }
 
   .navbar {
@@ -61,7 +61,7 @@
 
   /* ==== BANNER SECTION ==== */
   .banner {
-    padding: 30px 20px;
+    padding: 40px 20px;
   }
 
   /* ==== EVENTS SECTION ==== */
