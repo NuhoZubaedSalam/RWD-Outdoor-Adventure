@@ -31,19 +31,19 @@
     margin: 25px 0;
   }
 
-
   /* ==== HEADER SECTION ==== */
   header {
     min-height: 70vh;
   }
 
   .navbar {
-    display: block;
+    flex-direction: column;
     padding-bottom: 10px;
   }
 
   .logo {
     justify-content: center;
+    margin: 0 auto;
   }
 
   nav > ul {
@@ -61,14 +61,14 @@
 
   /* ==== BANNER SECTION ==== */
   .banner {
-    padding: 20px 15px 50px;
+    padding: 30px 20px;
   }
 
   /* ==== EVENTS SECTION ==== */
   .events-parent {
-  grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 20px;
-}
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 481px up to 769px) */
