@@ -69,6 +69,10 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 20px;
   }
+
+  .event > img {
+  height: 250px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 481px up to 769px) */
