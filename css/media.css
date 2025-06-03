@@ -136,13 +136,3 @@
   }
 }
 
-/* Medium devices (landscape tablets, 769px up to 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1025px) {
-  body {
-    background-color: green;
-  }
-}
-
-/* Large devices (large laptops and desktops, 1025px up 5o 1440px) */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-}
