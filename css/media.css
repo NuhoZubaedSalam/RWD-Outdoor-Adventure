@@ -76,12 +76,12 @@
 
   /* ==== EXPLORE THE WORLD SECTION ==== */
   .explore-world-main {
-    min-height: 30vh;
+    min-height: 40vh;
   }
 
   .explore-world-parent {
     display: block;
-    padding: 20px ;
+    padding: 40px 20px;
   }
 
   .explore-world {
@@ -94,7 +94,7 @@
     margin-bottom: 23px;
   }
 
-  
+
 }
 
 /* Small devices (portrait tablets and large phones, 481px up to 769px) */
