@@ -86,10 +86,10 @@
 
   .explore-world {
     width: 100%;
-    text-align: center;  
+    text-align: center;
   }
 
-  .explore-world > p{
+  .explore-world > p {
     text-align: justify;
     margin-bottom: 23px;
   }
@@ -102,12 +102,8 @@
   }
 
   .tours > .learn-more {
-    display: inline-block;  
+    display: inline-block;
     margin-bottom: 20px;
-  }
-
-  .lm-mobile {
-    margin: 0 auto;
   }
 
   .tours > img {
@@ -119,11 +115,11 @@
   footer {
     padding: 20px;
   }
-  
+
   footer > p {
     margin: 20px;
   }
-  
+
   .fab {
     font-size: 25px;
   }
@@ -131,8 +127,49 @@
 
 /* Small devices (portrait tablets and large phones, 481px up to 769px) */
 @media only screen and (min-width: 600px) and (max-width: 769px) {
-  body {
-    background-color: blue;
+  /* Global styles */
+  header {
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  button {
+    padding: 12px 30px;
+    font-weight: 300px;
+  }
+
+  /* ==== HEADER SECTION ==== */
+  .navbar {
+    flex-direction: row;
+    gap: 55px;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  /* ==== EVENTS SECTION ==== */
+  .events-parent {
+    margin: 10px;
+  }
+
+  .event > img {
+    height: 300px;
   }
 }
-
