@@ -71,8 +71,30 @@
   }
 
   .event > img {
-  height: 250px;
-}
+    height: 250px;
+  }
+
+  /* ==== EXPLORE THE WORLD SECTION ==== */
+  .explore-world-main {
+    min-height: 30vh;
+  }
+
+  .explore-world-parent {
+    display: block;
+    padding: 20px ;
+  }
+
+  .explore-world {
+    width: 100%;
+    text-align: center;  
+  }
+
+  .explore-world > p{
+    text-align: justify;
+    margin-bottom: 23px;
+  }
+
+  
 }
 
 /* Small devices (portrait tablets and large phones, 481px up to 769px) */
@@ -91,7 +113,4 @@
 
 /* Large devices (large laptops and desktops, 1025px up 5o 1440px) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  body {
-    background-color: blueviolet;
-  }
 }
