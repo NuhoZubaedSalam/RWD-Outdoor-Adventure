@@ -94,7 +94,39 @@
     margin-bottom: 23px;
   }
 
+  /* ==== TOURS SECTION ==== */
+  .tours-parent {
+    padding: 0 20px 0 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
 
+  .tours > .learn-more {
+    display: inline-block;  
+    margin-bottom: 20px;
+  }
+
+  .lm-mobile {
+    margin: 0 auto;
+  }
+
+  .tours > img {
+    object-fit: cover;
+    height: 350px;
+  }
+
+  /* ==== FOOTER SECTION ==== */
+  footer {
+    padding: 20px;
+  }
+  
+  footer > p {
+    margin: 20px;
+  }
+  
+  .fab {
+    font-size: 25px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 481px up to 769px) */
