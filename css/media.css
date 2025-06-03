@@ -74,9 +74,9 @@
     height: 250px;
   }
 
-  /* ==== EXPLORE THE WORLD SECTION ==== */
+  /* ==== EXPLORE THE WORLD ==== */
   .explore-world-main {
-    min-height: 40vh;
+    min-height: 50vh;
   }
 
   .explore-world-parent {
